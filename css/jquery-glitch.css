@@ -1,0 +1,41 @@
+.glitch {
+	position: relative;
+	width: 34.5vw;
+    height: 14vw;
+	top:-7vw;
+}
+.glitch .layer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+}
+.glitch .display {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.glitch .display .parent .div1{
+	text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 30px #ffffff;
+	opacity: 0.9;
+}
+.glitch .display .parent .div2{
+	opacity: 0.85;
+	-webkit-filter: drop-shadow( 0px 0px 25px rgba(255, 255, 255, 1.0));
+  	filter: drop-shadow( 0px 0px 25px rgba(255, 255, 255, 1.0));
+}
+.glitch .display .parent .div3{
+	text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 30px #ffffff;
+	opacity: 0.9;
+}
+.glitch .display .parent .div4{
+	text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 30px #ffffff;
+	opacity: 0.9;
+}
+
+@media screen and (max-width: 62.5rem){
+	.glitch{
+		width: 57vw;
+	}
+}
